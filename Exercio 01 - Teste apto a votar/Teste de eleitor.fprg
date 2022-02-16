@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="alexr"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-15 07:42:47 "/>
+        <attribute name="created" value="YWxleHI7QUxFWC1ST1NFTkRPOzIwMjItMDItMTU7IjA3OjI3OjI1ICI7MjYxMw=="/>
+        <attribute name="edited" value="YWxleHI7QUxFWC1ST1NFTkRPOzIwMjItMDItMTU7IjA3OjQyOjQ3ICI7MTsyNzIy"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nome" type="String" array="False" size=""/>
+            <declare name="anoNasc" type="Integer" array="False" size=""/>
+            <declare name="anoAtual" type="Integer" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <declare name="saudacao" type="String" array="False" size=""/>
+            <declare name="hora" type="Integer" array="False" size=""/>
+            <output expression="&quot;Qual o seu nome? &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Que horas s&#227;o? &quot;" newline="True"/>
+            <input variable="hora"/>
+            <if expression="(hora&gt;=06)&amp;&amp;(hora&lt;18)">
+                <then>
+                    <assign variable="saudacao" expression="&quot;Bom dia, &quot;"/>
+                </then>
+                <else/>
+            </if>
+            <if expression="(hora&gt;=18)&amp;&amp;(hora&lt;24)">
+                <then>
+                    <assign variable="saudacao" expression="&quot;Boa noite,&quot;"/>
+                </then>
+                <else/>
+            </if>
+            <output expression="saudacao&amp;&quot; seja bem-vindo &quot;&amp;nome&amp;&quot; !&quot;" newline="True"/>
+            <output expression="nome&amp;&quot;, em qual ano que voc&#234; nasceu? &quot;" newline="True"/>
+            <input variable="anoNasc"/>
+            <output expression="&quot;Qual &#233; o ano atual? &quot;" newline="True"/>
+            <input variable="anoAtual"/>
+            <assign variable="idade" expression="anoAtual-anoNasc"/>
+            <if expression="idade&gt;16">
+                <then>
+                    <output expression="nome&amp;&quot;, voc&#234; est&#225; apto a votar! &quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="nome&amp;&quot;, voc&#234; n&#227;o est&#225; apto a votar! &quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
