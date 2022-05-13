@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Exercicios-DIO.iml" filepath="$PROJECT_DIR$/.idea/Exercicios-DIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercio 01 - Teste apto a votar/Exercio 01 - Teste apto a votar.iml" filepath="$PROJECT_DIR$/Exercio 01 - Teste apto a votar/Exercio 01 - Teste apto a votar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercio 02 - Teste de aprovação aluno/Exercio 02 - Teste de aprovação aluno.iml" filepath="$PROJECT_DIR$/Exercio 02 - Teste de aprovação aluno/Exercio 02 - Teste de aprovação aluno.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercio 03 - Jogo de advinhação par e impar/Exercio 03 - Jogo de advinhação par e impar.iml" filepath="$PROJECT_DIR$/Exercio 03 - Jogo de advinhação par e impar/Exercio 03 - Jogo de advinhação par e impar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Exercio 04 - Tabuada simples/Exercio 04 - Tabuada simples.iml" filepath="$PROJECT_DIR$/Exercio 04 - Tabuada simples/Exercio 04 - Tabuada simples.iml" />
+    </modules>
+  </component>
+</project>
